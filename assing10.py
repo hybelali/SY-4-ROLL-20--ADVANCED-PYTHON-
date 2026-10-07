@@ -1,0 +1,20 @@
+import numpy as np
+num= np.arange(1, 11)
+print("Original Array:")
+print(num)
+print("First five elements:")
+print(num[:5])
+print("Elements from index 2 to 6:")
+print(num[2:7])
+print("Every second element:")
+print(num[::2])
+print("Sum:", np.sum(num))
+print("Mean:", np.mean(num))
+print("Maximum:", np.max(num))
+print("Minimum:", np.min(num))
+modified_array = num + 5
+print("Array after broadcasting (adding 5):")
+print(modified_array)
+modified_arr2 = num * 2
+print("Array after broadcasting (multiplying by 2):")
+print(modified_arr2)
